@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: $header-color;
+
+  #branding {
+    width: 10%;
+    padding: 2% 0;
+    margin-left: 5%;
+    flex-grow: 1;
+
+    a {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+
+    #logo {
+      min-height: 50px;
+      min-width: 50px;
+      max-width: 3vw;
+      max-height: 3vw;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 0 5%;
+    }
+  }
+
+  nav {
+    flex-grow: 3;
+
+    ul {
+      padding: 0;
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      font-size: 1.4em;
+
+      li {
+        margin: 0 5px;
+      }
+    }
+  }
+}

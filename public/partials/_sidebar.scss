@@ -1,0 +1,10 @@
+#sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+
+  #product-list {
+    list-style: none;
+    padding: 0;
+  }
+}
