@@ -39,7 +39,7 @@ header {
     list-style: none;
     padding: 0; }
 
-.product {
+#product {
   grid-area: product; }
 
 footer {
@@ -55,7 +55,7 @@ body {
   margin: 0 auto;
   width: 95%;
   display: grid;
-  grid-template-areas: "sidebar category category category" "sidebar product product product" "sidebar product product product"; }
+  grid-template-areas: "sidebar product product product"; }
 
 a {
   text-decoration: none;

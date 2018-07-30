@@ -21,26 +21,31 @@ class Bakery
   end
 end
 
-class Cookie
+class BakedGoods
+  # might want to add methods later on
+  attr_accessor :img, :desc, :price
+
   def initialize(img, desc, price)
     @img = img
-    @description = desc
+    @desc = desc
     @price = price
   end
 end
 
-class Cake
+class Cookie < BakedGoods
   def initialize(img, desc, price)
-    @img = img
-    @description = desc
-    @price = price
+    super
   end
 end
 
-class Muffin
+class Cake < BakedGoods
   def initialize(img, desc, price)
-    @img = img
-    @description = desc
-    @price = price
+    super
+  end
+end
+
+class Muffin < BakedGoods
+  def initialize(img, desc, price)
+    super
   end
 end

@@ -1,0 +1,8 @@
+<div id="product">
+  <h2><%= @target.upcase %></h2>
+  <% @bakery0.get_product(@target).each do |x| %>
+  <div>
+    <img src=<% x.img %> alt="">
+  </div>
+  <% end %>
+</div>

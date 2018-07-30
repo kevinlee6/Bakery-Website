@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby Bakery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="branding">
+      <a href="/">
+        <img src="media/Ruby_logo.png" alt="Company Logo" id="logo">
+        <h1>Ruby Bakery</h1>
+      </a>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/">PRODUCTS</a></li>
+        <li><a href="/">ABOUT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="main">
+    <nav id="sidebar">
+      <h4>Products</h4>
+      <ul id="product-list">
+        <li><a href="/cookies">Cookies</a></li>
+        <li><a href="/cakes">Cakes</a></li>
+        <li><a href="/muffins">Muffins</a></li>
+      </ul>
+    </nav>
+
+    <%= yield %>
+  </div>
+
+  <footer>
+    Ruby Bakery 2018
+  </footer>
+</body>
+</html>

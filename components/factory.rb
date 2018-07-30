@@ -1,6 +1,6 @@
-require './class.rb'
+require_relative 'class.rb'
 
-bakery0 = Bakery.new('Ruby Bakery')
+@bakery0 = Bakery.new('Ruby Bakery')
 
 cookies = [
   Cookie.new('../public/media/cookie-0.jpg', 'Legend of Zelda cookies', '2.00'),
@@ -29,6 +29,6 @@ muffins = [
   Muffin.new('../public/media/muffin-5.jpg', 'Avengers Muffin (alt style)', '3.50')
 ]
 
-cookies.each { |x| bakery0.add_to_products('cookies', x) }
-cakes.each { |x| bakery0.add_to_products('cakes', x) }
-muffins.each { |x| bakery0.add_to_products('muffins', x) }
+cookies.each { |x| @bakery0.add_to_products('cookies', x) }
+cakes.each { |x| @bakery0.add_to_products('cakes', x) }
+muffins.each { |x| @bakery0.add_to_products('muffins', x) }
