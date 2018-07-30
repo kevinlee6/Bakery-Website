@@ -1,4 +1,13 @@
 #product {
   grid-area: product;
 
+  #gallery {
+    display: flex;
+    align-items: center;
+    
+    .pic {
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
 }

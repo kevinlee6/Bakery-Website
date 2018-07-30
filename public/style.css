@@ -41,6 +41,12 @@ header {
 
 #product {
   grid-area: product; }
+  #product #gallery {
+    display: flex;
+    align-items: center; }
+    #product #gallery .pic {
+      max-width: 200px;
+      max-height: 200px; }
 
 footer {
   background-color: #b1ffc8;

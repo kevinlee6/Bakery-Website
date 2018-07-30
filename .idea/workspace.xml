@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5ca95f0-8243-4bf6-93d9-68e63f7fadfc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/views/layout.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/class.rb" beforeDir="false" afterPath="$PROJECT_DIR$/components/class.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/factory.rb" beforeDir="false" afterPath="$PROJECT_DIR$/components/factory.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/factory.rb" beforeDir="false" afterPath="$PROJECT_DIR$/components/kitchen.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/partials/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/partials/_product.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/products.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/products.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +17,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Bakery@app.rcov" NAME="app Coverage Results" MODIFIED="1532907577579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Bakery" />
-    <SUITE FILE_PATH="coverage/Bakery@factory.rcov" NAME="factory Coverage Results" MODIFIED="1532910048988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/components" MODULE_NAME="Bakery" />
+    <SUITE FILE_PATH="coverage/Bakery@app.rcov" NAME="app Coverage Results" MODIFIED="1532911548352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Bakery" />
+    <SUITE FILE_PATH="coverage/Bakery@factory.rcov" NAME="factory Coverage Results" MODIFIED="1532910423828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/components" MODULE_NAME="Bakery" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -50,16 +47,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="2" />
-          <entry key="erb" value="1066" />
-          <entry key="rb" value="723" />
-          <entry key="scss" value="1307" />
+          <entry key="erb" value="1187" />
+          <entry key="rb" value="901" />
+          <entry key="scss" value="1414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="RHTML" value="1066" />
-          <entry key="Ruby" value="725" />
-          <entry key="SCSS" value="1307" />
+          <entry key="RHTML" value="1187" />
+          <entry key="Ruby" value="903" />
+          <entry key="SCSS" value="1414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,7 +78,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.6387283">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.530777">
+        <splitter split-orientation="horizontal" split-proportion="0.3952435">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
@@ -93,11 +90,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/components/class.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="175">
-                      <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+                    <state relative-caret-position="49">
+                      <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
                     </state>
                   </provider>
                 </entry>
@@ -111,11 +108,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/components/factory.rb">
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/components/kitchen.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="314">
-                      <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+                    <state relative-caret-position="69">
+                      <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
                     </state>
                   </provider>
                 </entry>
@@ -142,11 +139,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/public/partials/_product.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="46">
-                      <caret line="2" selection-start-line="2" selection-end-line="2" />
+                    <state relative-caret-position="138">
+                      <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
                     </state>
                   </provider>
                 </entry>
@@ -160,7 +157,7 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/public/partials/_header.scss">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="138">
@@ -187,8 +184,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+                <state relative-caret-position="276">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
                 </state>
               </provider>
             </entry>
@@ -196,8 +193,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/products.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+                <state relative-caret-position="115">
+                  <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -233,13 +230,14 @@
         <option value="$PROJECT_DIR$/views/cakes.erb" />
         <option value="$PROJECT_DIR$/views/muffins.erb" />
         <option value="$PROJECT_DIR$/views/cookies.erb" />
-        <option value="$PROJECT_DIR$/public/partials/_product.scss" />
-        <option value="$PROJECT_DIR$/app.rb" />
         <option value="$PROJECT_DIR$/views/layout.erb" />
         <option value="$PROJECT_DIR$/public/style.scss" />
-        <option value="$PROJECT_DIR$/views/products.erb" />
-        <option value="$PROJECT_DIR$/components/factory.rb" />
         <option value="$PROJECT_DIR$/components/class.rb" />
+        <option value="$PROJECT_DIR$/components/factory.rb" />
+        <option value="$PROJECT_DIR$/app.rb" />
+        <option value="$PROJECT_DIR$/components/kitchen.rb" />
+        <option value="$PROJECT_DIR$/views/products.erb" />
+        <option value="$PROJECT_DIR$/public/partials/_product.scss" />
       </list>
     </option>
   </component>
@@ -250,8 +248,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="22" />
+    <option name="x" value="31" />
+    <option name="y" value="126" />
     <option name="width" value="1426" />
     <option name="height" value="878" />
   </component>
@@ -260,35 +258,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -315,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.factory">
+  <component name="RunManager" selected="Ruby.app">
     <configuration name="app" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Bakery" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -334,7 +304,7 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="factory" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="kitchen" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Bakery" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/components" />
@@ -348,18 +318,18 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/components/factory.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/components/kitchen.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Ruby.factory" />
+      <item itemvalue="Ruby.kitchen" />
       <item itemvalue="Ruby.app" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.factory" />
         <item itemvalue="Ruby.app" />
+        <item itemvalue="Ruby.kitchen" />
       </list>
     </recent_temporary>
   </component>
@@ -378,23 +348,23 @@
       <workItem from="1532895426072" duration="80000" />
       <workItem from="1532895567779" duration="46000" />
       <workItem from="1532895801425" duration="11577000" />
-      <workItem from="1532909386924" duration="690000" />
+      <workItem from="1532909386924" duration="2745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19323000" />
+    <option name="totallyTimeSpent" value="21378000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="22" width="1426" height="878" extended-state="0" />
+    <frame x="31" y="126" width="1426" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.12066474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899868" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49929875" visible="true" weight="0.32769832" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32769832" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49929875" weight="0.32769832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,24 +418,10 @@
     <entry file="file://$PROJECT_DIR$/views/muffins.erb" />
     <entry file="file://$PROJECT_DIR$/views/cookies.erb" />
     <entry file="file://$PROJECT_DIR$/views/cakes.erb" />
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/partials/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -476,20 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/start.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -497,10 +439,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/partials/_product.scss">
+    <entry file="file://$PROJECT_DIR$/views/start.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -511,31 +460,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/products.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/factory.rb">
+    <entry file="file://$PROJECT_DIR$/views/layout.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        <state relative-caret-position="754">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/class.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        <state relative-caret-position="49">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/products.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/kitchen.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/_product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
