@@ -1,70 +1,69 @@
+#header-container {
+  width: 100%;
+  background: #459b8e;
+  justify-content: center;
+  margin-bottom: 2%; }
+
 header {
-  display: flex;
   align-items: center;
-  background-color: #b1ffc8; }
+  background-color: #459b8e;
+  padding: 1% 0;
+  width: 90%; }
   header #branding {
-    width: 10%;
-    padding: 2% 0;
-    margin-left: 5%;
-    flex-grow: 1; }
+    white-space: nowrap; }
     header #branding a {
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: center; }
+      text-decoration: none; }
     header #branding #logo {
-      min-height: 50px;
+      width: 4vw;
       min-width: 50px;
-      max-width: 3vw;
-      max-height: 3vw; }
-    header #branding h1 {
-      font-size: 2.5em;
-      margin: 0 5%; }
-  header nav {
-    flex-grow: 3; }
-    header nav ul {
-      padding: 0;
-      width: 100%;
-      list-style: none;
-      display: flex;
-      justify-content: space-around;
-      font-size: 1.4em; }
-      header nav ul li {
-        margin: 0 5px; }
+      margin-bottom: 15px;
+      margin-right: 15px; }
+    header #branding #company {
+      font-size: 2.6em; }
+  header nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 1.4em; }
+    header nav ul li a {
+      text-decoration: none; }
 
 #sidebar {
-  grid-area: sidebar;
-  display: flex;
   flex-direction: column; }
   #sidebar #product-list {
     list-style: none;
     padding: 0; }
 
-#product {
-  grid-area: product; }
-  #product #gallery {
+#product #gallery .card {
+  width: 30%;
+  margin: 10px; }
+  #product #gallery .card #img-container {
     display: flex;
-    align-items: center; }
-    #product #gallery .pic {
-      max-width: 200px;
-      max-height: 200px; }
+    height: 300px;
+    width: 100%;
+    background: rgba(234, 234, 234, 0.2); }
+    #product #gallery .card #img-container .img {
+      max-height: 300px;
+      width: 100%;
+      margin: auto; }
 
 footer {
-  background-color: #b1ffc8;
-  text-align: center; }
+  background-color: #459b8e;
+  text-align: center;
+  padding: 2% 0; }
 
 body {
-  color: #ff435c;
+  color: #9b111e;
   background: aliceblue;
   margin: 0; }
 
 #main {
   margin: 0 auto;
-  width: 95%;
-  display: grid;
-  grid-template-areas: "sidebar product product product"; }
+  width: 95%; }
 
 a {
   text-decoration: none;
-  color: #ff435c; }
+  color: #9b111e; }
 
 /*# sourceMappingURL=style.css.map */

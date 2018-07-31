@@ -1,8 +1,15 @@
-<div id="product">
-  <h2><%= @target.upcase %></h2>
-  <div id="gallery">
-    <% @arr.each do |x| %>
-      <img class="pic" src=<%= x.img %> alt=<%= x.desc %>>
-    <% end %>
-  </div>
+<h2><%= @target.upcase %></h2>
+<div id="gallery" class="row">
+  <% @arr.each do |x| %>
+    <div class="card">
+      <div id="img-container" class="card-img-top">
+        <img class="img" src=<%= x.img %> alt=<%= x.desc %>>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title"><%= x.desc %></h5>
+        <p class="card-text">$<%= x.price %></p>
+      </div>
+    </div>
+  <% end %>
 </div>
+
