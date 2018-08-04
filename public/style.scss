@@ -3,8 +3,11 @@
 @import './partials/sidebar';
 @import './partials/product';
 @import './partials/footer';
+@import "./partials/about";
+@import './partials/animations';
 
 body {
+  font-family: 'Raleway', sans-serif;
   color: $primary-color;
   background: $body-color;
   margin: 0;
@@ -16,6 +19,9 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: $primary-color;
+
+  &:hover {
+    text-decoration: none;
+  }
 }

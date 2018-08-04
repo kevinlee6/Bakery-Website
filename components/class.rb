@@ -23,9 +23,11 @@ end
 
 class BakedGoods
   # might want to add methods later on
+  attr_reader :id
   attr_accessor :img, :desc, :price
 
-  def initialize(img, desc, price)
+  def initialize(id, img, desc, price)
+    @id = id
     @img = img
     @desc = desc
     @price = price
@@ -33,19 +35,10 @@ class BakedGoods
 end
 
 class Cookie < BakedGoods
-  def initialize(img, desc, price)
-    super
-  end
 end
 
 class Cake < BakedGoods
-  def initialize(img, desc, price)
-    super
-  end
 end
 
 class Muffin < BakedGoods
-  def initialize(img, desc, price)
-    super
-  end
 end

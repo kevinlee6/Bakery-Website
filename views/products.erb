@@ -1,15 +1,45 @@
 <h2><%= @target.upcase %></h2>
 <div id="gallery" class="row">
   <% @arr.each do |x| %>
-    <div class="card">
-      <div id="img-container" class="card-img-top">
+    <div class="card fadein">
+      <div class="img-container card-img-top">
         <img class="img" src=<%= x.img %> alt=<%= x.desc %>>
       </div>
-      <div class="card-body">
+      <div class="product-info card-body">
         <h5 class="card-title"><%= x.desc %></h5>
-        <p class="card-text">$<%= x.price %></p>
+        <div class="price-container row">
+          <span class="card-text">$<%= x.price %></span>
+          <form class="price-form">
+            <select name="select" class="select">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <input type="submit" class="add btn btn-success" value="Add"
+              onclick="handleClick('<%= x.id %>', '<%= x.img %>')" />
+          </form>
+        </div>
       </div>
     </div>
   <% end %>
 </div>
+<script type="text/javascript" charset="utf-8">
+  const cart = document.getElementById('cart');
+  const cartList = {};
+  function handleClick(id, img) {
+      let temp = document.createElement('img');
+      temp.src = img;
+      cart.appendChild(temp);
 
+      cartList[id] = img;
+  }
+</script>
