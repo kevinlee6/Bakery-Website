@@ -25,21 +25,10 @@
               <option value="12">12</option>
             </select>
             <input type="submit" class="add btn btn-success" value="Add"
-              onclick="handleClick('<%= x.id %>', '<%= x.img %>')" />
+              onclick="handleClick(event, '<%= x.id %>', '<%= x.img %>', '<%= x.desc %>', '<%= x.price %>')" />
           </form>
         </div>
       </div>
     </div>
   <% end %>
 </div>
-<script type="text/javascript" charset="utf-8">
-  const cart = document.getElementById('cart');
-  const cartList = {};
-  function handleClick(id, img) {
-      let temp = document.createElement('img');
-      temp.src = img;
-      cart.appendChild(temp);
-
-      cartList[id] = img;
-  }
-</script>
