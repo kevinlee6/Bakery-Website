@@ -1,5 +1,8 @@
 #sidebar {
+  background: rgba(222, 222, 222, 0.6);
+  padding: 10px 10px 0 10px;
   flex-direction: column;
+  border-radius: 10px;
 
   #product-list {
     list-style: none;
@@ -36,6 +39,17 @@
           max-height: 150px;
         }
       }
+
+      .product-info {
+        .total {
+          font-weight: bold;
+        }
+      }
     }
+  }
+
+  #total-price-container {
+    font-weight: bold;
+    font-size: 1.2em;
   }
 }

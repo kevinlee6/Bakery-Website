@@ -3,7 +3,7 @@
 <head>
   <title>Ruby Bakery</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
   <link href=<%= url("/favicon.ico") %> rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href=<%= url("style.css") %> />
@@ -31,15 +31,18 @@
 
   <div id="main" class="row container-fluid">
     <nav id="sidebar" class="col-3">
-      <h4>Products</h4>
+      <h4><a name="product">Products</a></h4>
       <ul id="product-list">
-        <li><a href="/cookies">Cookies</a></li>
-        <li><a href="/cakes">Cakes</a></li>
-        <li><a href="/muffins">Muffins</a></li>
+        <li><a href="/cookies#product">Cookies</a></li>
+        <li><a href="/cakes#product">Cakes</a></li>
+        <li><a href="/muffins#product">Muffins</a></li>
       </ul>
       <h4>Cart</h4>
       <div id="cart">
 
+      </div>
+      <div id="total-price-container">
+        Total Price: $<span id="total">0.00</span>
       </div>
     </nav>
 

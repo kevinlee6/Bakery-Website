@@ -1,0 +1,26 @@
+#start {
+  .start {
+    &:hover {
+      .centered {
+        color: white;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .centered {
+      background: rgba(233, 233, 233, 0.5);
+      color: $primary-color;
+      font-weight: bold;
+      font-size: 3vw;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%,-50%);
+    }
+  }
+}
+
+

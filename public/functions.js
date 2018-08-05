@@ -1,12 +1,28 @@
+const updateClosure = () => {
+  let totalPrice = 0;
+
+  return (price, op) => {
+      op === 'add' ?
+          totalPrice += price :
+          totalPrice -= price;
+
+      total.innerText = totalPrice.toFixed(2);
+  };
+};
+
+const updateTotal = updateClosure();
+
 const cartRemove = id => {
-    const toRemove = document.getElementById(id);
+    const toRemove = document.getElementById(id),
+          price = cartList[id].price * cartList[id].quantity;
     cart.removeChild(toRemove);
+    updateTotal(price, 'subtract');
+
     delete cartList[id];
     store(cartList);
 };
 
-const template = (id, img, desc, price, quantity) => {
-    const total = price * quantity;
+const template = (id, img, desc, price, quantity, itemTotal) => {
     return `
         <button onclick="cartRemove(${id})" class="cart-delete btn btn-danger">X</button>
         <div class="img-container card-img-top">
@@ -17,11 +33,14 @@ const template = (id, img, desc, price, quantity) => {
           <div class="price-container">
             <span class="card-text">$${price} x ${quantity}</span>
           </div>
-          <span>= $${total.toFixed(2)}</span>
+          <span class="total">= $${itemTotal.toFixed(2)}</span>
         </div>`;
 };
 
 const cartAdd = (id, img, desc, price, quantity) => {
+    const itemTotal = price * quantity;
+    updateTotal(itemTotal, 'add');
+
     cartList[id] = {
         id,
         img,
@@ -35,8 +54,8 @@ const cartAdd = (id, img, desc, price, quantity) => {
     div.id = id;
     div.classList.add('card');
     div.classList.add('fadein');
-    div.innerHTML = template(id, img, desc, price, quantity);
-    cart.appendChild(div);
+    div.innerHTML = template(id, img, desc, price, quantity, itemTotal);
+    cart.insertBefore(div, cart.childNodes[0]);
 };
 
 const addCartHandler = (event, id, img, desc, price) => {

@@ -29,7 +29,10 @@
         font-size: 1.4em; }
 
 #sidebar {
-  flex-direction: column; }
+  background: rgba(222, 222, 222, 0.6);
+  padding: 10px 10px 0 10px;
+  flex-direction: column;
+  border-radius: 10px; }
   #sidebar #product-list {
     list-style: none;
     padding: 0; }
@@ -54,6 +57,25 @@
           width: 100%;
           max-width: 150px;
           max-height: 150px; }
+      #sidebar #cart .card .product-info .total {
+        font-weight: bold; }
+  #sidebar #total-price-container {
+    font-weight: bold;
+    font-size: 1.2em; }
+
+#start .start:hover .centered {
+  color: white; }
+#start .start img {
+  width: 100%; }
+#start .start .centered {
+  background: rgba(233, 233, 233, 0.5);
+  color: #9b111e;
+  font-weight: bold;
+  font-size: 3vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 #product {
   padding-left: 30px;
@@ -86,7 +108,8 @@
 footer {
   background-color: blanchedalmond;
   text-align: center;
-  padding: 2% 0; }
+  padding: 2% 0;
+  margin-top: 2%; }
 
 #about {
   font-size: 1.4em; }
