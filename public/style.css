@@ -43,15 +43,17 @@
       #sidebar #cart .card .cart-delete {
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         opacity: 0.3;
         padding: 5px 10px; }
         #sidebar #cart .card .cart-delete:hover {
           opacity: 1; }
-      #sidebar #cart .card .cart-item {
-        width: 100%;
-        max-width: 150px;
-        max-height: 150px; }
+      #sidebar #cart .card .img-container {
+        max-width: 150px; }
+        #sidebar #cart .card .img-container .cart-item {
+          width: 100%;
+          max-width: 150px;
+          max-height: 150px; }
 
 #product {
   padding-left: 30px;
