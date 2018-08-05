@@ -1,7 +1,7 @@
 <h2><%= @target.upcase %></h2>
 <div id="gallery" class="row">
   <% @arr.each do |x| %>
-    <div class="card fadein">
+    <div id="product-<%= x.id %>" class="card fadein">
       <div class="img-container card-img-top">
         <img class="img" src=<%= x.img %> alt=<%= x.desc %>>
       </div>
@@ -24,8 +24,14 @@
               <option value="11">11</option>
               <option value="12">12</option>
             </select>
-            <input type="submit" class="add btn btn-success" value="Add"
-              onclick="addCartHandler(event, '<%= x.id %>', '<%= x.img %>', '<%= x.desc %>', '<%= x.price %>')" />
+            <input type="submit" class="add btn btn-success"
+                   onclick="addCartHandler(
+                      event,
+                       '<%= x.id %>',
+                       '<%= x.img %>',
+                       '<%= x.desc %>',
+                       '<%= x.price %>'
+                       )" />
           </form>
         </div>
       </div>

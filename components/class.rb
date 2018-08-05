@@ -24,13 +24,14 @@ end
 class BakedGoods
   # might want to add methods later on
   attr_reader :id
-  attr_accessor :img, :desc, :price
+  attr_accessor :img, :desc, :price, :quantity
 
   def initialize(id, img, desc, price)
     @id = id
     @img = img
     @desc = desc
     @price = price
+    @quantity = 1
   end
 end
 

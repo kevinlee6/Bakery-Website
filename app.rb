@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader'
-require 'sendgrid-ruby'
-include SendGrid
+# require 'sendgrid-ruby'
+# include SendGrid
 require_relative 'components/kitchen.rb'
 
 bakery0 = Bakery.new('Ruby Bakery')
