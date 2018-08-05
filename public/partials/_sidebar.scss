@@ -11,10 +11,16 @@
     overflow: auto;
 
     .card {
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 10px;
+
       .cart-delete {
         position: absolute;
+        top: 0;
         right: 0;
-        opacity: 0.5;
+        opacity: 0.3;
+        padding: 5px 10px;
 
         &:hover {
           opacity: 1;
@@ -23,6 +29,7 @@
 
       .cart-item {
         width: 100%;
+        max-width: 150px;
       }
     }
   }

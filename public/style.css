@@ -36,39 +36,49 @@
   #sidebar #cart {
     max-height: 740px;
     overflow: auto; }
-    #sidebar #cart .card .cart-delete {
-      position: absolute;
-      right: 0;
-      opacity: 0.5; }
-      #sidebar #cart .card .cart-delete:hover {
-        opacity: 1; }
-    #sidebar #cart .card .cart-item {
-      width: 100%; }
+    #sidebar #cart .card {
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 10px; }
+      #sidebar #cart .card .cart-delete {
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0.3;
+        padding: 5px 10px; }
+        #sidebar #cart .card .cart-delete:hover {
+          opacity: 1; }
+      #sidebar #cart .card .cart-item {
+        width: 100%;
+        max-width: 150px; }
 
-#product #gallery .card {
-  width: 30%;
-  margin: 10px; }
-  #product #gallery .card .img-container {
-    display: flex;
-    height: 300px;
-    width: 100%;
-    background: rgba(234, 234, 234, 0.2); }
-    #product #gallery .card .img-container .img {
-      max-height: 300px;
+#product {
+  padding-left: 30px;
+  padding-right: 0; }
+  #product #gallery .card {
+    width: 30%;
+    margin: 10px; }
+    #product #gallery .card .img-container {
+      display: flex;
+      height: 300px;
       width: 100%;
-      margin: auto; }
-  #product #gallery .card .product-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
-    #product #gallery .card .product-info .price-container {
-      justify-content: space-around;
-      align-items: center; }
-    #product #gallery .card .product-info .price-form {
-      white-space: nowrap; }
-      #product #gallery .card .product-info .price-form .select {
-        height: 35px;
-        margin-right: 10px; }
+      background: rgba(234, 234, 234, 0.2); }
+      #product #gallery .card .img-container .img {
+        max-height: 300px;
+        width: 100%;
+        margin: auto; }
+    #product #gallery .card .product-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      #product #gallery .card .product-info .price-container {
+        justify-content: space-around;
+        align-items: center; }
+      #product #gallery .card .product-info .price-form {
+        white-space: nowrap; }
+        #product #gallery .card .product-info .price-form .select {
+          height: 35px;
+          margin-right: 10px; }
 
 footer {
   background-color: blanchedalmond;
