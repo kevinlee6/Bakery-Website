@@ -172,6 +172,11 @@
 
   #sidebar #cart .card {
     flex-wrap: wrap; } }
+@media screen and (max-width: 768px) {
+  #start .start {
+    margin: 10px 0; }
+    #start .start .centered {
+      font-size: 2em; } }
 @media screen and (max-width: 575px) {
   #sidebar #cart {
     max-height: 400px; }
