@@ -11,7 +11,9 @@
     padding: 1% 0;
     width: 90%; }
     #header-container #main-header #branding {
-      white-space: nowrap; }
+      white-space: nowrap;
+      display: flex;
+      justify-content: center; }
       #header-container #main-header #branding #logo {
         width: 4vw;
         min-width: 50px;
@@ -23,6 +25,7 @@
       margin-top: 10px; }
       #header-container #main-header nav ul {
         display: flex;
+        flex-wrap: wrap;
         padding: 0;
         list-style: none;
         align-items: center;
@@ -39,7 +42,7 @@
 
 #sidebar {
   background: rgba(222, 222, 222, 0.6);
-  padding: 10px 10px 0 10px;
+  padding: 10px;
   flex-direction: column;
   border-radius: 10px; }
   #sidebar #product-list {
@@ -51,6 +54,7 @@
     #sidebar #cart .card {
       flex-direction: row;
       align-items: center;
+      justify-content: center;
       margin-bottom: 10px; }
       #sidebar #cart .card .cart-delete {
         position: absolute;
@@ -61,13 +65,15 @@
         #sidebar #cart .card .cart-delete:hover {
           opacity: 1; }
       #sidebar #cart .card .img-container {
-        max-width: 150px; }
+        max-width: 150px;
+        text-align: center; }
         #sidebar #cart .card .img-container .cart-item {
-          width: 100%;
-          max-width: 150px;
+          max-width: 100%;
           max-height: 150px; }
-      #sidebar #cart .card .product-info .total {
-        font-weight: bold; }
+      #sidebar #cart .card .product-info {
+        width: 50%; }
+        #sidebar #cart .card .product-info .total {
+          font-weight: bold; }
   #sidebar #checkout {
     width: 100%;
     background: blanchedalmond;
@@ -93,46 +99,55 @@
 #product {
   padding-left: 30px;
   padding-right: 0; }
-  #product #gallery .card {
-    width: 30%;
-    margin: 10px; }
-    #product #gallery .card .img-container {
-      display: flex;
-      height: 300px;
-      width: 100%;
-      background: rgba(234, 234, 234, 0.2); }
-      #product #gallery .card .img-container .img {
-        max-height: 300px;
-        width: 100%;
-        margin: auto; }
-    #product #gallery .card .product-info {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between; }
-      #product #gallery .card .product-info .price-container {
-        justify-content: space-around;
-        align-items: center; }
-      #product #gallery .card .product-info .price-form {
-        white-space: nowrap; }
-        #product #gallery .card .product-info .price-form .select {
-          height: 35px;
-          margin-right: 10px; }
+  #product #gallery .card .img-container {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background: rgba(234, 234, 234, 0.2); }
+    #product #gallery .card .img-container .img {
+      max-height: 300px;
+      max-width: 100%;
+      margin: auto; }
+  #product #gallery .card .product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    #product #gallery .card .product-info .price-container {
+      justify-content: space-around;
+      align-items: center; }
+    #product #gallery .card .product-info .price-form {
+      white-space: nowrap; }
+      #product #gallery .card .product-info .price-form .select {
+        height: 35px;
+        margin-right: 10px; }
 
 #footer {
   background-color: blanchedalmond;
-  padding: 2% 0;
+  padding: 1% 0;
   margin: 2% 0 0 0;
   font-size: 1.2em; }
   #footer .ftr {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0; }
   #footer #social {
     margin: 5px 0; }
     #footer #social .fab {
       transform: scale(2.5, 2.5);
       margin: 0 25px; }
+  #footer #email {
+    flex-direction: column; }
+    #footer #email form {
+      margin: 0 5px;
+      display: flex; }
+      #footer #email form #email-btn {
+        margin-left: 5px;
+        padding: 3px; }
 
+@media screen and (max-width: 992px) {
+  #footer #social {
+    margin-bottom: 20px; } }
 #about {
   font-size: 1.4em; }
 
@@ -144,6 +159,24 @@
 .fadein {
   animation: fadein 0.3s ease-in-out; }
 
+@media screen and (max-width: 575px) {
+  #sidebar #cart .card {
+    flex-wrap: nowrap; }
+
+  #product {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0; } }
+@media screen and (max-width: 1366px) {
+  #header-container #main-header #branding #company {
+    font-size: 2.4em; }
+  #header-container #main-header nav ul {
+    font-size: 1.6em; }
+    #header-container #main-header nav ul .dropdown #dropdownMenuButton {
+      font-size: 1em; }
+
+  #sidebar #cart .card {
+    flex-wrap: wrap; } }
 body {
   font-family: 'Raleway', sans-serif;
   color: #9b111e;

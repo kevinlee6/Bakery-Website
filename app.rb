@@ -18,6 +18,10 @@ get '/about' do
   erb :about, :layout => :layout2
 end
 
+get '/contact' do
+  erb :contact, :layout => :layout2
+end
+
 get '/:product' do
   @target = params[:product]
   @arr = bakery0.get_product(@target)

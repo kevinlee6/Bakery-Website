@@ -1,12 +1,13 @@
 #footer {
   background-color: $secondary-color;
-  padding: 2% 0;
+  padding: 1% 0;
   margin: 2% 0 0 0;
   font-size: 1.2em;
 
   .ftr {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0;
   }
 
@@ -16,6 +17,28 @@
     .fab {
       transform: scale(2.5, 2.5);
       margin: 0 25px;
+    }
+  }
+
+  #email {
+    flex-direction: column;
+
+    form {
+      margin: 0 5px;
+      display: flex;
+
+      #email-btn {
+        margin-left: 5px;
+        padding: 3px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #footer {
+    #social {
+      margin-bottom: 20px;
     }
   }
 }

@@ -1,11 +1,8 @@
 const updateClosure = () => {
   let totalPrice = 0;
 
-  return (price, op) => {
-      op === 'add' ?
-          totalPrice += price :
-          totalPrice -= price;
-
+  return (price) => {
+      totalPrice += price;
       total.innerText = totalPrice.toFixed(2);
   };
 };
@@ -16,7 +13,7 @@ const cartRemove = id => {
     const toRemove = document.getElementById(id),
           price = cartList[id].price * cartList[id].quantity;
     cart.removeChild(toRemove);
-    updateTotal(price, 'subtract');
+    updateTotal(-price);
 
     delete cartList[id];
     store(cartList);
@@ -39,7 +36,7 @@ const template = (id, img, desc, price, quantity, itemTotal) => {
 
 const cartAdd = (id, img, desc, price, quantity) => {
     const itemTotal = price * quantity;
-    updateTotal(itemTotal, 'add');
+    updateTotal(itemTotal);
 
     cartList[id] = {
         id,

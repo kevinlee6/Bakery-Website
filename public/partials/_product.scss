@@ -4,9 +4,6 @@
 
   #gallery {
     .card {
-      width: 30%;
-      margin: 10px;
-
       .img-container {
         display: flex;
         height: 300px;
@@ -15,7 +12,7 @@
 
         .img {
           max-height: 300px;
-          width: 100%;
+          max-width: 100%;
           margin: auto;
         }
       }
