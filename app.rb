@@ -15,11 +15,13 @@ get '/' do
 end
 
 get '/about' do
-  erb :about, :layout => :layout2
+  @misc = true
+  erb :about
 end
 
 get '/contact' do
-  erb :contact, :layout => :layout2
+  @misc = true
+  erb :contact
 end
 
 get '/:product' do
