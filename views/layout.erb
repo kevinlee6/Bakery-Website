@@ -13,35 +13,33 @@
   <% end %>
 </head>
 <body>
-  <div id="header-container">
-    <header id="main-header" class="row">
-      <div id="branding" class="col-12 col-lg-5">
-        <a href="/">
-          <img src="media/Ruby_logo.png" alt="Company Logo" id="logo">
-          <span id="company">Ruby Bakery</span>
-        </a>
-      </div>
+  <header id="main-header" class="row">
+    <div id="branding" class="col-12 col-lg-5">
+      <a href="/">
+        <img src="media/Ruby_logo.png" alt="Company Logo" id="logo">
+        <span id="company">Ruby Bakery</span>
+      </a>
+    </div>
 
-      <nav class="col-12 col-lg-7">
-        <ul>
-          <li>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                PRODUCTS
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="/cookies#product">Cookies</a>
-                <a class="dropdown-item" href="/cakes#product">Cakes</a>
-                <a class="dropdown-item" href="/muffins#product">Muffins</a>
-              </div>
+    <nav class="col-12 col-lg-7">
+      <ul>
+        <li>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PRODUCTS
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="/cookies#product">Cookies</a>
+              <a class="dropdown-item" href="/cakes#product">Cakes</a>
+              <a class="dropdown-item" href="/muffins#product">Muffins</a>
             </div>
-          </li>
-          <li><a href="/about">ABOUT</a></li>
-          <li><a href="/contact">CONTACT</a></li>
-        </ul>
-      </nav>
-    </header>
-  </div>
+          </div>
+        </li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <div id="main" class="row container-fluid">
   <% if @misc %>

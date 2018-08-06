@@ -6,6 +6,7 @@
 @import './partials/footer';
 @import "./partials/about";
 @import './partials/animations';
+@import './partials/contact';
 @import './partials/media-queries';
 
 body {
@@ -17,7 +18,7 @@ body {
 
 #main {
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
 }
 
 a {

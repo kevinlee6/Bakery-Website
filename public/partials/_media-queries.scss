@@ -1,20 +1,18 @@
 @media screen and (max-width: 1200px) {
-  #header-container {
-    #main-header {
-      #branding {
-        #company {
-          font-size: 2.4em;
-        }
+  #main-header {
+    #branding {
+      #company {
+        font-size: 2.4em;
       }
+    }
 
-      nav {
-        ul {
-          font-size: 1.6em;
+    nav {
+      ul {
+        font-size: 1.6em;
 
-          .dropdown {
-            #dropdownMenuButton {
-              font-size: 1em;
-            }
+        .dropdown {
+          #dropdownMenuButton {
+            font-size: 1em;
           }
         }
       }
@@ -30,8 +28,20 @@
   }
 }
 
+@media screen and (max-width: 991px) {
+  // BOOTSTRAP LG
+  #main-header {
+    nav {
+      padding-right: 15px;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   #start {
+    max-height: 900px;
+    overflow: auto;
+
     .start {
       margin: 10px 0;
 
@@ -43,7 +53,10 @@
 }
 
 @media screen and (max-width: 575px) {
+  // BOOTSTRAP XS
   #sidebar {
+    margin-bottom: 30px;
+
     #cart {
       max-height: 400px;
 
