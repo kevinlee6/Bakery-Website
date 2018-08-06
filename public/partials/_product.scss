@@ -3,6 +3,9 @@
   padding-right: 0;
 
   #gallery {
+    max-height: 900px;
+    overflow: auto;
+
     .card {
       .img-container {
         display: flex;

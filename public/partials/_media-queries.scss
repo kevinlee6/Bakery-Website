@@ -1,20 +1,4 @@
-@media screen and (max-width: 575px) {
-  #sidebar {
-    #cart {
-      .card {
-        flex-wrap: nowrap;
-      }
-    }
-  }
-
-  #product {
-    width: 90%;
-    margin: 0 auto;
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1200px) {
   #header-container {
     #main-header {
       #branding {
@@ -43,5 +27,23 @@
         flex-wrap: wrap;
       }
     }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #sidebar {
+    #cart {
+      max-height: 400px;
+
+      .card {
+        flex-wrap: nowrap;
+      }
+    }
+  }
+
+  #product {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
   }
 }
