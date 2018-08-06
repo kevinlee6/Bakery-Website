@@ -10,7 +10,7 @@
   }
 
   #cart {
-    max-height: 740px;
+    max-height: 820px;
     overflow: auto;
 
     .card {
@@ -48,8 +48,10 @@
     }
   }
 
-  #total-price-container {
+  #checkout {
+    width: 100%;
+    background: $secondary-color;
+    color: $primary-color;
     font-weight: bold;
-    font-size: 1.2em;
   }
 }

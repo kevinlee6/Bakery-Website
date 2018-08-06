@@ -1,14 +1,14 @@
 #header-container {
   width: 100%;
   display: flex;
-  background: $header-color;
+  background: $secondary-color;
   justify-content: center;
   margin-bottom: 2%;
   padding: 1% 0;
 
   #main-header {
     align-items: center;
-    background-color: $header-color;
+    background-color: $secondary-color;
     padding: 1% 0;
     width: 90%;
 
@@ -23,7 +23,7 @@
       }
 
       #company {
-        font-size: 2.6em;
+        font-size: 3.6vw;
       }
     }
 
@@ -34,8 +34,23 @@
         display: flex;
         padding: 0;
         list-style: none;
+        align-items: center;
         justify-content: space-around;
-        font-size: 1.4em;
+        font-size: 2vw;
+
+        .dropdown {
+          #dropdownMenuButton {
+            background: none;
+            border: none;
+            font-size: 2vw;
+            color: $primary-color;
+          }
+
+          .dropdown-item {
+            color: $primary-color;
+            font-size: 1.2em;
+          }
+        }
       }
     }
   }
