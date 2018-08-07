@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  background: blanchedalmond;
+}
+
+#main {
+  #one {
+    height: 100vh;
+    background-image: url("http://paperlief.com/images/bakery-wallpaper-3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #two {
+    height: 100vh;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/dwvodCiM7CaMhqq6E1JLO6qJrKk=/0x0:1024x683/1200x800/filters:focal(431x261:593x423)/cdn.vox-cdn.com/uploads/chorus_image/image/55810987/eatersea1016_standard_bakery_official.0.0.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  }
+}
+
+.centered {
+  font-family: 'Raleway', sans-serif;
+  background: rgba(233,233,233,0.8);
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #9b111e;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.one {
+  font-size: 3em;
+  top: 20%;
+}
+.two {
+  top: 50%;
+}
+.three {
+  top: 120%;
+}
+.four {
+  top: 170%;
+}
+
+#redirect {
+  position: absolute;
+  text-align: center;
+  font-size: 3em;
+}
+
+.img {
+  max-width: 100%;
+}
+
+@keyframes fadeandslide {
+  0% {
+    opacity: 0;
+    margin-top: 200px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+.fadeandslide {
+  animation: fadeandslide 2s ease-in-out;
+}
+
+#sticky {
+  font-size: 5em;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: #0f0;
+  position: sticky;
+  bottom: 10%;
+}
+
+@keyframes flashy {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#flashy0 {
+  animation: flashy 1.2s ease-in-out infinite alternate;
+}
+
+#flashy1 {
+  animation: flashy 1.2s ease-in-out 0.4s infinite alternate;
+}
+
+#flashy2 {
+  animation: flashy 1.2s ease-in-out 0.8s infinite alternate;
+}
+
+@keyframes transitions {
+  0% {
+    opacity: 0;
+    margin-left: 200px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+.show {
+  animation: transitions 2s ease-in-out forwards ;
+}
+
+.hidden {
+  opacity: 0;
+}

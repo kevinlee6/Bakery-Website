@@ -52,7 +52,8 @@ const cartAdd = (id, img, desc, price, quantity) => {
     div.classList.add('card');
     div.classList.add('fadein');
     div.innerHTML = template(id, img, desc, price, quantity, itemTotal);
-    cart.insertBefore(div, cart.childNodes[0]);
+    // cart.insertBefore(div, cart.childNodes[0]);
+    cart.appendChild(div);
 };
 
 const addCartHandler = (event, id, img, desc, price) => {
