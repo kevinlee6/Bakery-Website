@@ -98,6 +98,7 @@
     max-height: 900px;
     overflow: auto; }
     #product #gallery .card .img-container {
+      margin-top: 10px;
       display: flex;
       height: 300px;
       width: 100%;
