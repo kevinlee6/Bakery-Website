@@ -31,7 +31,7 @@
     <session id="1777113315">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -91,7 +91,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.68544996">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.68016195">
+        <splitter split-orientation="horizontal" split-proportion="0.14054054">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
@@ -103,7 +103,7 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/components/kitchen.rb">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="192">
@@ -121,10 +121,10 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/public/landing.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1173">
+                    <state relative-caret-position="477">
                       <caret line="51" selection-start-line="51" selection-end-line="51" />
                     </state>
                   </provider>
@@ -179,20 +179,20 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/public/landing.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="874">
+                    <state relative-caret-position="304">
                       <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/public/functions.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="689">
-                      <caret line="78" column="19" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="19" />
+                    <state relative-caret-position="221">
+                      <caret line="73" column="33" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="33" />
                     </state>
                   </provider>
                 </entry>
@@ -506,12 +506,12 @@
       <workItem from="1533412621904" duration="1612000" />
       <workItem from="1533655540906" duration="1192000" />
       <workItem from="1533657569194" duration="3553000" />
-      <workItem from="1533662559964" duration="5647000" />
+      <workItem from="1533662559964" duration="6358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108918000" />
+    <option name="totallyTimeSpent" value="109629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -643,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -661,13 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -741,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/kitchen.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/landing_content.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -786,10 +765,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/kitchen.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="78" column="19" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="19" />
+        <state relative-caret-position="221">
+          <caret line="73" column="33" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
         </state>
       </provider>
     </entry>
