@@ -1,6 +1,4 @@
-<h1>Ruby Bakery</h1>
-Available through <a href='https://ruby-bakery.herokuapp.com/
-'>Heroku</a>.
+<a href='https://ruby-bakery.herokuapp.com/'><h1>Ruby Bakery</h1></a>
 <p>
     Features:
     <ul>
