@@ -1,38 +1,28 @@
-<a href='https://ruby-bakery.herokuapp.com/'><h1>Ruby Bakery</h1></a>
-<p>
-    Features:
-    <ul>
-        <li>Utilized OOP Ruby to create classes based on product category</li>
-        <li>
-            Products available:
-            <ul>
-                <li>Cookies</li>
-                <li>Cakes</li>
-                <li>Muffins</li>
-            </ul>
-        </li>
-        <li>
-            Cart feature
-            <ul>
-                <li>Dynamically tracks total price with JS</li>
-                <li>Tracks items in cart through LocalStorage</li>
-            </ul>
-        </li>
-        <li>Email catalog on email signup with SendGrid API</li>
-        <li>Initial one-time landing page</li>
-        <li>Page layout created with Bootstrap 4.1's Flexbox-grid system</li>
-        <li>Mobile responsive</li>
-    </ul>
-</p>
-<p>
-    Created with:
-    <ul>
-        <li>HTML / ERB</li>
-        <li>SCSS</li>
-        <li>JavaScript</li>
-        <li>Ruby</li>
-        <li>Sinatra Framework</li>
-        <li>Bootstrap Framework</li>
-        <li>SendGrid Email API</li>
-    </ul>
-</p>
+# [Ruby Bakery](https://ruby-bakery.herokuapp.com)
+
+![Homepage of Ruby Bakery](/public/media/ruby-bakery-homepage.png)
+
+Features:
+
+- Utilized OOP Ruby to create classes based on product category
+- Products available:
+  - Cookies
+  - Cakes
+  - Muffins
+- Cart feature
+  - Dynamically tracks total price with JS
+  - Tracks items in cart through LocalStorage
+- Email catalog on email signup with SendGrid API
+- Initial one-time landing page
+- Page layout created with Bootstrap 4.1's Flexbox-grid system
+- Mobile responsive
+
+Created with:
+
+- HTML / ERB
+- SCSS
+- JavaScript
+- Ruby
+- Sinatra Framework
+- Bootstrap Framework
+- SendGrid Email API
